@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# 비밀 설정
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Spring Boot / Gradle
+.gradle/
+**/build/
+
+# React / Vite
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
+
+# 수집 데이터·학습 결과
+data/raw/
+data/processed/
+artifacts/
+mlruns/
+
+# 로그
+*.log
